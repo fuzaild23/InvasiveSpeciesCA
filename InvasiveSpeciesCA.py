@@ -1,16 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jul 23 20:27:58 2022
-
 @author: fuzail
 """
 #%%
-### THIS SCRIPT CONTAINS THE FULL CA. Part A: No control. Part B: With control
+### This script contains the cellular automaton developed in the paper titled: 
+### "Modelling the efficacy of a threshold-triggered control strategy for the invasive tree species Prosopis"
+
+### The script consists of two parts:
+### Part A: No control strategy employed. 
+### Part B: Control strategy with threshold beta employed.
 #%% 
 
 
-#PART A: No control strategy
+#Library imports
 #%%
 import pandas as pd
 import numpy as np 
